@@ -7,7 +7,8 @@ script for convert wav to mp3 and update mysql asteriskcdrdb - with new file nam
 
 
 # Clear old records 
-cp recording_maintenance.sh /usr/local/bin/
+cp recording_maintenance.sh /usr/local/bin/   
+
 chmod +x /usr/local/bin/recording_maintenance.sh
 
 # Crontab
