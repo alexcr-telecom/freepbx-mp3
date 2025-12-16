@@ -6,7 +6,7 @@ script for convert wav to mp3 and update mysql asteriskcdrdb - with new file nam
    /usr/local/bin/convert_recordings.sh ^{MIXMON_DIR}^{YEAR}/^{MONTH}/^{DAY}/^{CALLFILENAME}.^{MIXMON_FORMAT}
 
 
-Clear old records 
+# Clear old records 
 cp recording_maintenance.sh /usr/local/bin/
 chmod +x /usr/local/bin/recording_maintenance.sh
 
